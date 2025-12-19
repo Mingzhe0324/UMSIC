@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serene Retirement Village - Your Peaceful Haven</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-home"></i>
+                    <span>Serene Retirement Village</span>
+                </div>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <nav class="nav" id="mainNav">
+                    <ul>
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#facilities" class="nav-link">Facilities</a></li>
+                        <li><a href="#packages" class="nav-link">Packages</a></li>
+                        <li><a href="#programmes" class="nav-link">Programmes</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="nav-link dropdown-toggle">
+                                Services <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#health" class="nav-link">Health Monitor</a></li>
+                                <li><a href="#cctv" class="nav-link">CCTV Security</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#careers" class="nav-link">Careers</a></li>
+                        <li><a href="#payment" class="nav-link">Payment</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Welcome to Serene Retirement Village</h1>
+                    <p>Experience comfort, care, and community in our state-of-the-art retirement facility</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" onclick="scrollToSection('packages')">View Packages</button>
+                        <button class="btn btn-secondary" onclick="scrollToSection('health')">Health Services</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h2>About Serene Retirement Village</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Welcome to Your Peaceful Haven</h3>
+                        <p>Established in 2025, Serene Retirement Village is a premier retirement community dedicated to providing exceptional care, comfort, and companionship for seniors in Malaysia. We believe that retirement should be a new chapter filled with joy, dignity, and meaningful experiences.</p>
+                        
+                        <h4>Our Vision</h4>
+                        <p>To be the leading retirement village in Malaysia, setting the standard for senior living through innovative care, holistic wellness programs, and a vibrant community spirit.</p>
+                        
+                        <h4>Our Mission</h4>
+                        <p>We are committed to enhancing the quality of life for our residents by providing personalized care, engaging activities, and a safe, supportive environment that promotes independence and well-being.</p>
+                        
+                        <h4>Our Core Values</h4>
+                        <ul class="values-list">
+                            <li><strong>Compassion:</strong> We treat every resident with empathy, respect, and kindness, understanding their unique needs and preferences.</li>
+                            <li><strong>Excellence:</strong> We strive for the highest standards in care, service, and facilities, continuously improving our offerings.</li>
+                            <li><strong>Integrity:</strong> We operate with transparency and honesty in all our interactions with residents and their families.</li>
+                            <li><strong>Community:</strong> We foster a sense of belonging and mutual support among residents, staff, and families.</li>
+                            <li><strong>Innovation:</strong> We embrace new technologies and approaches to enhance the retirement living experience.</li>
+                        </ul>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://assets-prod.rew.ca/building-group/5360/images/36095_mdsdsy.jpg?trim=auto&fit=crop&w=768&h=577" alt="Serene Retirement Village">
+                    </div>
+                </div>
+                
+                <div class="team-section">
+                    <h3>Meet Our Leadership Team</h3>
+                    <div class="team-grid">
+                        <div class="team-member">
+                           <a href="https://imgbb.com/"><img src="https://i.ibb.co/5XXDqVMG/Whats-App-Image-2025-12-19-at-8-26-52-AM.jpg" alt="Whats App Image 2025 12 19 at 8 26 52 AM" border="0"></a>
+                            <h4>Ms. Chai Xin Tong</h4>
+                            <p>Project Lead</p>
+                            <p>Oversees the development and implementation of our retirement village project, ensuring quality and excellence.</p>
+                        </div>
+                        <div class="team-member">
+                           <a href="https://imgbb.com/"><img src="https://i.ibb.co/MDhdnGVq/Whats-App-Image-2025-12-19-at-8-29-44-AM.jpg" alt="Whats App Image 2025 12 19 at 8 29 44 AM" border="0"></a>
+                            <h4>Ms. Tan Ker Li</h4>
+                            <p>Community Development Manager</p>
+                            <p>Responsible for building a vibrant community through resident engagement and social activities.</p>
+                        </div>
+                        <div class="team-member">
+                            <a href="https://ibb.co/PG3W0VCW"><img src="https://i.ibb.co/WvqzjRKz/Whats-App-Image-2025-12-19-at-8-29-51-AM.jpg" alt="Whats-App-Image-2025-12-19-at-8-29-51-AM" border="0"></a>
+                            <h4>Ms. Nicole Cheng</h4>
+                            <p>Marketing and Partnership Lead</p>
+                            <p>Drives marketing strategies and builds partnerships to promote our retirement village and its services.</p>
+                        </div>
+                        <div class="team-member">
+                        <a href="https://ibb.co/FLx5vYG3"><img src="https://i.ibb.co/8LKr3xFs/Whats-App-Image-2025-12-19-at-8-33-49-AM.jpg" alt="Whats-App-Image-2025-12-19-at-8-33-49-AM" border="0"></a>
+                            <h4>Ms. Pua Yee Lam</h4>
+                            <p>Operational Manager</p>
+                            <p>Ensures smooth daily operations and high-quality service delivery across all departments.</p>
+                        </div>
+                         <div class="team-member">
+                           <a href="https://imgbb.com/"><img src="https://i.ibb.co/gMb6qZJk/2025-09-06-160415.png" alt="2025 09 06 160415" border="0"></a>
+                            <h4>Mr. Chong Ming Zhe</h4>
+                            <p>Technology Lead</p>
+                            <p>Leads the integration of technology solutions to enhance resident care and facility management.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Facilities Section -->
+        <section id="facilities" class="section facilities-section">
+            <div class="container">
+                <h2>Our Facilities</h2>
+                <p class="section-intro">We offer world-class facilities designed to provide comfort, safety, and enrichment for our residents.</p>
+                
+                <div class="facilities-grid">
+                    <div class="facility-card">
+                        <div class="facility-image">
+                            <img src="https://images.rosewoodhotels.com/is/image/rwhg/three-bedroom-villa-plunge-pool" alt="Accommodation">
+                            <div class="facility-overlay">
+                                <h3>Luxurious Accommodation</h3>
+                            </div>
+                        </div>
+                        <div class="facility-content">
+                            <p>Spacious, well-designed rooms with modern amenities, emergency call systems, and beautiful views. Choose from studio, one-bedroom, or suite options.</p>
+                            <ul>
+                                <li>24/7 emergency call system</li>
+                                <li>Air conditioning and heating</li>
+                                <li>Private bathrooms with safety features</li>
+                                <li>High-speed internet access</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="facility-card">
+                        <div class="facility-image">
+                            <img src="https://lhbcorp.com/wp-content/uploads/2024/04/180802_Hero1.jpg" alt="Medical Center">
+                            <div class="facility-overlay">
+                                <h3>Medical & Wellness Center</h3>
+                            </div>
+                        </div>
+                        <div class="facility-content">
+                            <p>Fully-equipped medical center staffed by experienced healthcare professionals, including doctors, nurses, and therapists.</p>
+                            <ul>
+                                <li>24/7 medical supervision</li>
+                                <li>Regular health check-ups</li>
+                                <li>Physiotherapy and rehabilitation</li>
+                                <li>Medication management</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="facility-card">
+                        <div class="facility-image">
+                            <img src="https://fisherpartners.net/wp-content/uploads/2022/05/Covel_01.jpg" alt="Dining Hall">
+                            <div class="facility-overlay">
+                                <h3>Gourmet Dining Hall</h3>
+                            </div>
+                        </div>
+                        <div class="facility-content">
+                            <p>Restaurant-style dining with nutritious, delicious meals prepared by professional chefs. Special dietary requirements are accommodated.</p>
+                            <ul>
+                                <li>Nutritionist-planned menus</li>
+                                <li>Special dietary accommodations</li>
+                                <li>Private dining for family events</li>
+                                <li>Café and lounge area</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="facility-card">
+                        <div class="facility-image">
+                            <img src="https://cdn.vox-cdn.com/thumbor/Ggd1ScXCAeCqCPLV42LBFd2L7Dw=/0x0:1612x905/1200x800/filters:focal(678x325:934x581)/cdn.vox-cdn.com/uploads/chorus_image/image/60436247/01_Salem_Rehab_Play_1612x905_copy.0.jpg" alt="Recreation">
+                            <div class="facility-overlay">
+                                <h3>Recreation & Social Areas</h3>
+                            </div>
+                        </div>
+                        <div class="facility-content">
+                            <p>Various spaces for social activities, hobbies, and entertainment to keep residents engaged and connected.</p>
+                            <ul>
+                                <li>Library and reading room</li>
+                                <li>Game room with various activities</li>
+                                <li>Movie theater</li>
+                                <li>Crafts and art studio</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="facility-card">
+                        <div class="facility-image">
+                            <img src="https://www.springbrookassistedliving.com/wp-content/uploads/IMG-5494-scaled.jpg" alt="Fitness">
+                            <div class="facility-overlay">
+                                <h3>Fitness & Therapy Pool</h3>
+                            </div>
+                        </div>
+                        <div class="facility-content">
+                            <p>Heated swimming pool and fitness center with equipment designed for seniors, offering gentle exercise and rehabilitation.</p>
+                            <ul>
+                                <li>Heated therapeutic pool</li>
+                                <li>Senior-friendly fitness equipment</li>
+                                <li>Yoga and meditation room</li>
+                                <li>Personal training sessions</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="facility-card">
+                        <div class="facility-image">
+                            <img src="https://th.bing.com/th/id/R.217c22e4c9ee315fc9b3f638b79a2128?rik=VXv2yAyqQL000w&riu=http%3a%2f%2fjardinesterapeuticos.com%2fwp-content%2fuploads%2f2016%2f09%2f26488707.jpg&ehk=85wL3CcSSK5PsUS%2floBHBjuflLBU5y1ZIGBbpSoaL64%3d&risl=&pid=ImgRaw&r=0" alt="Garden">
+                            <div class="facility-overlay">
+                                <h3>Therapeutic Garden</h3>
+                            </div>
+                        </div>
+                        <div class="facility-content">
+                            <p>Beautifully landscaped gardens with walking paths, seating areas, and therapeutic gardening spaces for relaxation and nature therapy.</p>
+                            <ul>
+                                <li>Wheelchair-accessible paths</li>
+                                <li>Therapeutic gardening plots</li>
+                                <li>Rest areas and pavilions</li>
+                                <li>Sensory garden elements</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+
+   
+
+        <!-- Packages Section -->
+        <section id="packages" class="section packages-section">
+            <div class="container">
+                <h2>Retirement Packages</h2>
+                <div class="packages-grid">
+                    <div class="package-card basic">
+                        <div class="package-header">
+                            <h3>Basic Care</h3>
+                            <div class="package-price">RM 2,500<span>/month</span></div>
+                        </div>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Comfortable accommodation</li>
+                            <li><i class="fas fa-check"></i> 3 meals daily</li>
+                            <li><i class="fas fa-check"></i> Basic health monitoring</li>
+                            <li><i class="fas fa-check"></i> Housekeeping service</li>
+                            <li><i class="fas fa-check"></i> 24/7 security</li>
+                        </ul>
+                        <button class="btn btn-package" onclick="selectPackage('Basic Care', 2500)">Select Package</button>
+                    </div>
+                    <div class="package-card premium featured">
+                        <div class="package-badge">Most Popular</div>
+                        <div class="package-header">
+                            <h3>Premium Care</h3>
+                            <div class="package-price">RM 4,500<span>/month</span></div>
+                        </div>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Spacious premium room</li>
+                            <li><i class="fas fa-check"></i> Gourmet dining experience</li>
+                            <li><i class="fas fa-check"></i> Advanced health monitoring</li>
+                            <li><i class="fas fa-check"></i> Personal care assistant</li>
+                            <li><i class="fas fa-check"></i> Physiotherapy sessions</li>
+                            <li><i class="fas fa-check"></i> Entertainment activities</li>
+                        </ul>
+                        <button class="btn btn-package" onclick="selectPackage('Premium Care', 4500)">Select Package</button>
+                    </div>
+                    <div class="package-card luxury">
+                        <div class="package-header">
+                            <h3>Luxury Care</h3>
+                            <div class="package-price">RM 6,500<span>/month</span></div>
+                        </div>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Luxury suite with balcony</li>
+                            <li><i class="fas fa-check"></i> Personal chef service</li>
+                            <li><i class="fas fa-check"></i> 24/7 medical supervision</li>
+                            <li><i class="fas fa-check"></i> Private nurse</li>
+                            <li><i class="fas fa-check"></i> Custom wellness program</li>
+                            <li><i class="fas fa-check"></i> Family guest accommodation</li>
+                            <li><i class="fas fa-check"></i> Premium transportation</li>
+                        </ul>
+                        <button class="btn btn-package" onclick="selectPackage('Luxury Care', 7000)">Select Package</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Programmes Section -->
+        <section id="programmes" class="section programmes-section">
+            <div class="container">
+                <h2>Ongoing Programmes & Activities</h2>
+                
+                <!-- Weekly Schedule Button -->
+                <div class="schedule-button-container">
+                    <button class="btn btn-primary" onclick="showWeeklySchedule()">
+                        <i class="fas fa-calendar-alt"></i> View Weekly Schedule
+                    </button>
+                </div>
+
+                <!-- Free Programmes -->
+                <div class="programme-category">
+                    <h3><i class="fas fa-gift"></i> Free Programmes</h3>
+                    <div class="programmes-grid">
+                        <div class="programme-card free">
+                            <div class="programme-image">
+                                <img src="https://i.ytimg.com/vi/wiUsOeJzzdQ/maxresdefault.jpg" alt="Yoga Class">
+                                <span class="programme-badge free-badge">FREE</span>
+                            </div>
+                            <div class="programme-content">
+                                <h3>Morning Yoga</h3>
+                                <p class="programme-schedule">Every Monday, Wednesday, Friday - 8:00 AM</p>
+                                <p>Gentle yoga exercises designed for seniors to improve flexibility and balance.</p>
+                                <div class="programme-actions">
+                                    <button class="btn btn-small" onclick="joinProgramme('Morning Yoga')">Join Programme</button>
+                                    <button class="btn btn-small btn-reminder" onclick="addCalendarReminder('Morning Yoga', 'Every Monday, Wednesday, Friday - 8:00 AM')">
+                                        <i class="fas fa-bell"></i> Set Reminder
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="programme-card free">
+                            <div class="programme-image">
+                                <img src="https://www.sciatic-relief.com/wp-content/uploads/2018/11/gardener-planting-flowers-in-the-garden-close-up-photo.jpeg" alt="Gardening">
+                                <span class="programme-badge free-badge">FREE</span>
+                            </div>
+                            <div class="programme-content">
+                                <h3>Therapeutic Gardening</h3>
+                                <p class="programme-schedule">Every Saturday - 9:00 AM</p>
+                                <p>Engage in light gardening activities that promote physical activity and mental well-being.</p>
+                                <div class="programme-actions">
+                                    <button class="btn btn-small" onclick="joinProgramme('Therapeutic Gardening')">Join Programme</button>
+                                    <button class="btn btn-small btn-reminder" onclick="addCalendarReminder('Therapeutic Gardening', 'Every Saturday - 9:00 AM')">
+                                        <i class="fas fa-bell"></i> Set Reminder
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="programme-card free">
+                            <div class="programme-image">
+                                <img src="https://th.bing.com/th/id/R.9f12396a63791376beb1dd284ed7ecce?rik=Q6sSqq%2fKMD2bJA&riu=http%3a%2f%2f1.bp.blogspot.com%2f-j02UAmRbVyU%2fTi3FBAyUVLI%2fAAAAAAAABKs%2f8KSn0TuqdNU%2fs1600%2fman1.jpg&ehk=veaDgyxHbgRitkzXZfLLS4vF3mIZCkrU4XMbh5OkKl0%3d&risl=&pid=ImgRaw&r=0" alt="Art Therapy">
+                                <span class="programme-badge free-badge">FREE</span>
+                            </div>
+                            <div class="programme-content">
+                                <h3>Art Therapy Workshop</h3>
+                                <p class="programme-schedule">Every Tuesday - 2:00 PM</p>
+                                <p>Express creativity through painting and crafts in a supportive environment.</p>
+                                <div class="programme-actions">
+                                    <button class="btn btn-small" onclick="joinProgramme('Art Therapy Workshop')">Join Programme</button>
+                                    <button class="btn btn-small btn-reminder" onclick="addCalendarReminder('Art Therapy Workshop', 'Every Tuesday - 2:00 PM')">
+                                        <i class="fas fa-bell"></i> Set Reminder
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="programme-card free">
+                            <div class="programme-image">
+                                <img src="https://www.mindsong.org.uk/wp-content/uploads/2019/06/UWAEloiz.jpeg" alt="Music Therapy">
+                                <span class="programme-badge free-badge">FREE</span>
+                            </div>
+                            <div class="programme-content">
+                                <h3>Music & Memory</h3>
+                                <p class="programme-schedule">Every Thursday - 3:00 PM</p>
+                                <p>Enjoy nostalgic music sessions that stimulate memory and promote social interaction.</p>
+                                <div class="programme-actions">
+                                    <button class="btn btn-small" onclick="joinProgramme('Music & Memory')">Join Programme</button>
+                                    <button class="btn btn-small btn-reminder" onclick="addCalendarReminder('Music & Memory', 'Every Thursday - 3:00 PM')">
+                                        <i class="fas fa-bell"></i> Set Reminder
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="programme-card free">
+                            <div class="programme-image">
+                                <img src="https://ssww-blog.s3.amazonaws.com/blog/wp-content/uploads/puzzle-ideas-senior-living.jpg" alt="Memory Games">
+                                <span class="programme-badge free-badge">FREE</span>
+                            </div>
+                            <div class="programme-content">
+                                <h3>Memory Enhancement Games</h3>
+                                <p class="programme-schedule">Every Monday, Friday - 4:00 PM</p>
+                                <p>Fun and engaging memory games and puzzles to keep the mind sharp and active.</p>
+                                <div class="programme-actions">
+                                    <button class="btn btn-small" onclick="joinProgramme('Memory Enhancement Games')">Join Programme</button>
+                                    <button class="btn btn-small btn-reminder" onclick="addCalendarReminder('Memory Enhancement Games', 'Every Monday, Friday - 4:00 PM')">
+                                        <i class="fas fa-bell"></i> Set Reminder
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Paid Programmes -->
+                <div class="programme-category">
+                    <h3><i class="fas fa-crown"></i> Extra Paid Programmes</h3>
+                    <div class="programmes-grid">
+                        <div class="programme-card paid">
+                            <div class="programme-image">
+                                <img src="https://th.bing.com/th/id/R.4ae6463e794e729676e1f457484b8f8a?rik=TXqORRbSOAK%2f5Q&riu=http%3a%2f%2fwww.travelonapp.com%2fwp-content%2fuploads%2f2015%2f04%2fSingapore-Merlion.jpg&ehk=WNhecvOPaX2vIVRxHfTEJQik%2bAS2PG%2fIzi4GW0W4vXk%3d&risl=&pid=ImgRaw&r=0" alt="Singapore Trip">
+                                <span class="programme-badge paid-badge">PAID</span>
+                            </div>
+                            <div class="programme-content">
+                                <h3>Singapore Cultural Tour</h3>
+                                <p class="programme-schedule">Monthly - 3 Days 2 Nights</p>
+                                <p>Explore the vibrant culture and attractions of Singapore with guided tours and comfortable accommodation.</p>
+                                <p class="programme-price"><strong>Price:</strong> RM 2,000 per person</p>
+                                <button class="btn btn-small btn-premium" onclick="joinProgramme('Singapore Cultural Tour')">Book Now</button>
+                            </div>
+                        </div>
+                        <div class="programme-card paid">
+                            <div class="programme-image">
+                                <img src="https://www.roadaffair.com/wp-content/uploads/2017/10/doi-inthanon-national-park-thailand-shutterstock_227684350.jpg" alt="Thailand Trip">
+                                <span class="programme-badge paid-badge">PAID</span>
+                            </div>
+                            <div class="programme-content">
+                                <h3>Thailand Wellness Retreat</h3>
+                                <p class="programme-schedule">Quarterly - 5 Days 4 Nights</p>
+                                <p>Rejuvenate your body and soul with traditional Thai massage, meditation, and spa treatments.</p>
+                                <p class="programme-price"><strong>Price:</strong> RM 3,300 per person</p>
+                                <button class="btn btn-small btn-premium" onclick="joinProgramme('Thailand Wellness Retreat')">Book Now</button>
+                            </div>
+                        </div>
+                        <div class="programme-card paid">
+                            <div class="programme-image">
+                                <img src="https://media1.thrillophilia.com/filestore/hd79uhk32t98wxuw46yp5ze5qpks_shutterstock_2147747043.jpg" alt="Indonesia Trip">
+                                <span class="programme-badge paid-badge">PAID</span>
+                            </div>
+                            <div class="programme-content">
+                                <h3>Bali Spiritual Journey</h3>
+                                <p class="programme-schedule">Bi-annually - 4 Days 3 Nights</p>
+                                <p>Experience the spiritual and natural beauty of Bali with temple visits and cultural performances.</p>
+                                <p class="programme-price"><strong>Price:</strong> RM 2,700 per person</p>
+                                <button class="btn btn-small btn-premium" onclick="joinProgramme('Bali Spiritual Journey')">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- Health Monitoring Section -->
+        <section id="health" class="section health-section">
+            <div class="container">
+                <h2>Health Monitoring Dashboard</h2>
+                <div class="health-grid">
+                    <div class="health-card">
+                        <div class="health-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h3>Heart Rate</h3>
+                        <div class="health-value" id="heartRate">72</div>
+                        <div class="health-unit">bpm</div>
+                        <div class="health-status normal">Normal</div>
+                    </div>
+                    <div class="health-card">
+                        <div class="health-icon">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <h3>Blood Pressure</h3>
+                        <div class="health-value" id="bloodPressure">120/80</div>
+                        <div class="health-unit">mmHg</div>
+                        <div class="health-status normal">Normal</div>
+                    </div>
+                    <div class="health-card">
+                        <div class="health-icon">
+                            <i class="fas fa-temperature-high"></i>
+                        </div>
+                        <h3>Body Temperature</h3>
+                        <div class="health-value" id="temperature">36.5</div>
+                        <div class="health-unit">°C</div>
+                        <div class="health-status normal">Normal</div>
+                    </div>
+                    <div class="health-card">
+                        <div class="health-icon">
+                            <i class="fas fa-lungs"></i>
+                        </div>
+                        <h3>Oxygen Level</h3>
+                        <div class="health-value" id="oxygen">98</div>
+                        <div class="health-unit">%</div>
+                        <div class="health-status normal">Normal</div>
+                    </div>
+                </div>
+                
+                <!-- Health Reports Section -->
+                <div class="health-reports">
+                    <h3>Health Reports & Analysis</h3>
+                    
+                    <!-- Overall Health Score -->
+                    <div class="health-score-container">
+                        <div class="score-card">
+                            <h4>Overall Health Score</h4>
+                            <div class="score-circle">
+                                <span id="healthScore">85</span>
+                                <small>/100</small>
+                            </div>
+                            <div class="score-status excellent">Excellent</div>
+                        </div>
+                        <div class="feedback-card">
+                            <h4>Health Feedback</h4>
+                            <p id="healthFeedback">Your vital signs are within normal ranges. Keep maintaining your current lifestyle and continue regular monitoring.</p>
+                            <div class="recommendations">
+                                <h5>Recommendations:</h5>
+                                <ul id="recommendationsList">
+                                    <li>Continue regular physical activity</li>
+                                    <li>Maintain balanced diet</li>
+                                    <li>Stay hydrated</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Report Tabs -->
+                    <div class="report-tabs">
+                        <button class="tab-btn active" onclick="switchReportTab('daily')">Daily Report</button>
+                        <button class="tab-btn" onclick="switchReportTab('weekly')">Weekly Report</button>
+                        <button class="tab-btn" onclick="switchReportTab('monthly')">Monthly Report</button>
+                    </div>
+                    
+                    <!-- Report Content -->
+                    <div class="report-content">
+                        <!-- Daily Report -->
+                        <div id="dailyReport" class="report-panel active">
+                            <h4>Today's Health Summary</h4>
+                            <div class="report-stats">
+                                <div class="stat-item">
+                                    <span class="stat-label">Average Heart Rate</span>
+                                    <span class="stat-value" id="dailyAvgHR">72 bpm</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Blood Pressure Range</span>
+                                    <span class="stat-value" id="dailyBPRange">120/80 mmHg</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Temperature Average</span>
+                                    <span class="stat-value" id="dailyAvgTemp">36.5°C</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Oxygen Level Average</span>
+                                    <span class="stat-value" id="dailyAvgO2">98%</span>
+                                </div>
+                            </div>
+                            <div class="report-actions">
+                                <button class="btn btn-small" onclick="exportReport('daily')">Export Daily Report</button>
+                                <button class="btn btn-small" onclick="printReport('daily')">Print Report</button>
+                            </div>
+                        </div>
+                        
+                        <!-- Weekly Report -->
+                        <div id="weeklyReport" class="report-panel">
+                            <h4>Weekly Health Trends</h4>
+                            <div class="report-stats">
+                                <div class="stat-item">
+                                    <span class="stat-label">Weekly Average Heart Rate</span>
+                                    <span class="stat-value" id="weeklyAvgHR">75 bpm</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Blood Pressure Trend</span>
+                                    <span class="stat-value" id="weeklyBPTrend">Stable</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Health Score Trend</span>
+                                    <span class="stat-value" id="weeklyScoreTrend">Improving ↗</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Critical Alerts</span>
+                                    <span class="stat-value" id="weeklyAlerts">0</span>
+                                </div>
+                            </div>
+                            <div class="report-actions">
+                                <button class="btn btn-small" onclick="exportReport('weekly')">Export Weekly Report</button>
+                                <button class="btn btn-small" onclick="printReport('weekly')">Print Report</button>
+                            </div>
+                        </div>
+                        
+                        <!-- Monthly Report -->
+                        <div id="monthlyReport" class="report-panel">
+                            <h4>Monthly Health Analysis</h4>
+                            <div class="report-stats">
+                                <div class="stat-item">
+                                    <span class="stat-label">Monthly Average Heart Rate</span>
+                                    <span class="stat-value" id="monthlyAvgHR">73 bpm</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Health Score Change</span>
+                                    <span class="stat-value" id="monthlyScoreChange">+5 points</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Days with Normal Readings</span>
+                                    <span class="stat-value" id="monthlyNormalDays">28/30 days</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Overall Health Status</span>
+                                    <span class="stat-value" id="monthlyStatus">Good</span>
+                                </div>
+                            </div>
+                            <div class="report-actions">
+                                <button class="btn btn-small" onclick="exportReport('monthly')">Export Monthly Report</button>
+                                <button class="btn btn-small" onclick="printReport('monthly')">Print Report</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+             <!-- CCTV Monitoring Section -->
+        <section id="cctv" class="section cctv-section">
+            <div class="container">
+                <h2>CCTV Security Monitoring</h2>
+                <div class="cctv-grid">
+                    <div class="cctv-camera">
+                        <div class="camera-feed">
+                            <img src="https://harbourseniorliving.com/wp-content/uploads/2025/01/senior-living-exterior-entrance-dusk.jpg" alt="Main Entrance">
+                            <div class="camera-overlay">
+                                <span class="camera-name">Main Entrance</span>
+                                <span class="camera-status live">LIVE</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cctv-camera">
+                        <div class="camera-feed">
+                            <img src="https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2016/1/15/0/OA16-Mickman-Brothers_Outdoor-Oasis_1.jpg.rend.hgtvcom.616.411.85.suffix/1452883925220.webp" alt="Garden Area">
+                            <div class="camera-overlay">
+                                <span class="camera-name">Garden Area</span>
+                                <span class="camera-status live">LIVE</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cctv-camera">
+                        <div class="camera-feed">
+                            <img src="https://www.clarknexsen.com/wp-content/uploads/2015/11/2-1920x1152.jpg" alt="Dining Hall">
+                            <div class="camera-overlay">
+                                <span class="camera-name">Dining Hall</span>
+                                <span class="camera-status live">LIVE</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cctv-camera">
+                        <div class="camera-feed">
+                            <img src="https://3dbrute.com/wp-content/uploads/full/2023/04/3332821.jpg" alt="Corridor">
+                            <div class="camera-overlay">
+                                <span class="camera-name">Main Corridor</span>
+                                <span class="camera-status live">LIVE</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Guardian Room Access -->
+                <div class="guardian-access">
+                    <h3>Guardian Room Monitoring</h3>
+                    <p>Family members can monitor their elderly parents' rooms securely.</p>
+                    <div class="guardian-form">
+                        <form id="guardianAccessForm" onsubmit="handleGuardianAccess(event)">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="roomNumber">Room Number *</label>
+                                    <input type="text" id="roomNumber" name="roomNumber" placeholder="e.g., A-101" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="accessCode">Access Code *</label>
+                                    <input type="password" id="accessCode" name="accessCode" placeholder="Enter 6-digit code" maxlength="6" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="guardianName">Guardian Name *</label>
+                                <input type="text" id="guardianName" name="guardianName" placeholder="Your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="relationship">Relationship *</label>
+                                <select id="relationship" name="relationship" required>
+                                    <option value="">Select relationship</option>
+                                    <option value="son">Son</option>
+                                    <option value="daughter">Daughter</option>
+                                    <option value="spouse">Spouse</option>
+                                    <option value="grandchild">Grandchild</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-video"></i> Access Room Camera
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Careers Section -->
+        <section id="careers" class="section careers-section">
+            <div class="container">
+                <h2>Careers at Serene Retirement Village</h2>
+                <div class="careers-content">
+                    <div class="why-join-us">
+                        <h3>Why Join Our Team?</h3>
+                        <div class="benefits-grid">
+                            <div class="benefit-item">
+                                <i class="fas fa-heart"></i>
+                                <h4>Meaningful Work</h4>
+                                <p>Make a real difference in the lives of our residents every day. Your work brings joy, comfort, and dignity to seniors.</p>
+                            </div>
+                            <div class="benefit-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <h4>Professional Development</h4>
+                                <p>Continuous training opportunities, career advancement paths, and support for further education and certifications.</p>
+                            </div>
+                            <div class="benefit-item">
+                                <i class="fas fa-users"></i>
+                                <h4>Supportive Environment</h4>
+                                <p>Work with a compassionate, collaborative team that values your contributions and well-being.</p>
+                            </div>
+                            <div class="benefit-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <h4>Job Security</h4>
+                                <p>Join a growing industry with stable employment opportunities and long-term career prospects.</p>
+                            </div>
+                            <div class="benefit-item">
+                                <i class="fas fa-award"></i>
+                                <h4>Competitive Benefits</h4>
+                                <p>Attractive salary packages, health insurance, retirement plans, and employee wellness programs.</p>
+                            </div>
+                            <div class="benefit-item">
+                                <i class="fas fa-balance-scale"></i>
+                                <h4>Work-Life Balance</h4>
+                                <p>Flexible scheduling, paid time off, and policies that support your personal and family needs.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="current-openings">
+                        <h3>Current Openings</h3>
+                        <div class="job-listings">
+                            <div class="job-card">
+                                <div class="job-header">
+                                    <h4>Registered Nurse</h4>
+                                    <span class="job-type full-time">Full-Time</span>
+                                </div>
+                                <div class="job-details">
+                                    <p><strong>Department:</strong> Medical Services</p>
+                                    <p><strong>Experience:</strong> 2+ years in geriatric care</p>
+                                    <p><strong>Qualification:</strong> Bachelor of Nursing, valid nursing license</p>
+                                    <p><strong>Location:</strong> Kuala Lumpur</p>
+                                    <p>We are looking for compassionate registered nurses with experience in geriatric care to join our medical team.</p>
+                                </div>
+                                <button class="btn btn-primary" onclick="applyForJob('Registered Nurse')">Apply Now</button>
+                            </div>
+                            
+                            <div class="job-card">
+                                <div class="job-header">
+                                    <h4>Caregiver</h4>
+                                    <span class="job-type full-time">Full-Time</span>
+                                </div>
+                                <div class="job-details">
+                                    <p><strong>Department:</strong> Resident Services</p>
+                                    <p><strong>Experience:</strong> 1+ years in caregiving</p>
+                                    <p><strong>Qualification:</strong> SPM or equivalent, caregiving certification preferred</p>
+                                    <p><strong>Location:</strong> Kuala Lumpur</p>
+                                    <p>Provide daily care and support to our residents, ensuring their comfort and well-being.</p>
+                                </div>
+                                <button class="btn btn-primary" onclick="applyForJob('Caregiver')">Apply Now</button>
+                            </div>
+                            
+                            <div class="job-card">
+                                <div class="job-header">
+                                    <h4>Activities Coordinator</h4>
+                                    <span class="job-type full-time">Full-Time</span>
+                                </div>
+                                <div class="job-details">
+                                    <p><strong>Department:</strong> Recreation</p>
+                                    <p><strong>Experience:</strong> 1+ years in activities planning</p>
+                                    <p><strong>Qualification:</strong> Diploma in Recreation Therapy or related field</p>
+                                    <p><strong>Location:</strong> Kuala Lumpur</p>
+                                    <p>Plan and implement engaging activities and programs to enhance our residents' quality of life.</p>
+                                </div>
+                                <button class="btn btn-primary" onclick="applyForJob('Activities Coordinator')">Apply Now</button>
+                            </div>
+                            
+                            <div class="job-card">
+                                <div class="job-header">
+                                    <h4>Physiotherapist</h4>
+                                    <span class="job-type part-time">Part-Time</span>
+                                </div>
+                                <div class="job-details">
+                                    <p><strong>Department:</strong> Rehabilitation</p>
+                                    <p><strong>Experience:</strong> 3+ years in physiotherapy</p>
+                                    <p><strong>Qualification:</strong> Bachelor of Physiotherapy, valid practicing license</p>
+                                    <p><strong>Location:</strong> Kuala Lumpur</p>
+                                    <p>Provide physiotherapy services to help residents maintain mobility and independence.</p>
+                                </div>
+                                <button class="btn btn-primary" onclick="applyForJob('Physiotherapist')">Apply Now</button>
+                            </div>
+                            
+                            <div class="job-card">
+                                <div class="job-header">
+                                    <h4>Chef</h4>
+                                    <span class="job-type full-time">Full-Time</span>
+                                </div>
+                                <div class="job-details">
+                                    <p><strong>Department:</strong> Food Services</p>
+                                    <p><strong>Experience:</strong> 5+ years in culinary arts</p>
+                                    <p><strong>Qualification:</strong> Culinary arts diploma, food handling certificate</p>
+                                    <p><strong>Location:</strong> Kuala Lumpur</p>
+                                    <p>Prepare nutritious and delicious meals that cater to our residents' dietary needs and preferences.</p>
+                                </div>
+                                <button class="btn btn-primary" onclick="applyForJob('Chef')">Apply Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="application-process">
+                    <h3>Application Process</h3>
+                    <div class="process-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <h4>Submit Application</h4>
+                            <p>Send your resume and cover letter to careers@sereneretirement.com</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <h4>Initial Screening</h4>
+                            <p>Our HR team reviews your application within 5-7 business days</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <h4>Interview</h4>
+                            <p>Attend interviews with department heads and management</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <h4>Offer & Onboarding</h4>
+                            <p>Receive offer letter and join our comprehensive onboarding program</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Payment Section -->
+        <section id="payment" class="section payment-section">
+            <div class="container">
+                <h2>Payment Center</h2>
+                <div class="payment-container">
+                    <div class="payment-form">
+                        <h3>Make a Payment</h3>
+                        <form id="paymentForm">
+                            <div class="form-group">
+                                <label for="residentName">Resident Name</label>
+                                <input type="text" id="residentName" name="residentName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="paymentType">Payment Type</label>
+                                <select id="paymentType" name="paymentType" required>
+                                    <option value="">Select Payment Type</option>
+                                    <option value="monthly">Monthly Fee</option>
+                                    <option value="deposit">Security Deposit</option>
+                                    <option value="additional">Additional Services</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="amount">Amount (RM)</label>
+                                <input type="number" id="amount" name="amount" min="0" step="0.01" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="paymentMethod">Payment Method</label>
+                                <div class="payment-methods">
+                                    <label class="payment-method">
+                                        <input type="radio" name="paymentMethod" value="credit" required>
+                                        <i class="fas fa-credit-card"></i>
+                                        Credit/Debit Card
+                                    </label>
+                                    <label class="payment-method">
+                                        <input type="radio" name="paymentMethod" value="online" required>
+                                        <i class="fas fa-university"></i>
+                                        Online Banking
+                                    </label>
+                                    <label class="payment-method">
+                                        <input type="radio" name="paymentMethod" value="ewallet" required>
+                                        <i class="fas fa-wallet"></i>
+                                        E-Wallet
+                                    </label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">Proceed to Payment</button>
+                        </form>
+                    </div>
+                    <div class="payment-info">
+                        <h3>Payment Information</h3>
+                        <div class="info-card">
+                            <h4>Bank Account Details</h4>
+                            <p><strong>Bank:</strong> Maybank Berhad</p>
+                            <p><strong>Account Name:</strong> Serene Retirement Village Sdn Bhd</p>
+                            <p><strong>Account Number:</strong> 1234567890123</p>
+                        </div>
+                        <div class="info-card">
+                            <h4>Payment Methods Accepted</h4>
+                            <ul>
+                                <li>Credit/Debit Cards (Visa, Mastercard)</li>
+                                <li>Online Banking (All major banks)</li>
+                                <li>E-Wallets (Touch 'n Go, GrabPay, Boost)</li>
+                                <li>Cheque</li>
+                                <li>Cash (at reception)</li>
+                            </ul>
+                        </div>
+                        <div class="info-card">
+                            <h4>Office Hours</h4>
+                            <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                            <p>Saturday: 9:00 AM - 1:00 PM</p>
+                            <p>Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <h3>Visit Us</h3>
+                            <p><strong>Address:</strong></p>
+                            <p>Serene Retirement Village<br>
+                            123, Jalan Serene<br>
+                            50250 Kuala Lumpur<br>
+                            Malaysia</p>
+                            <p><strong>Operating Hours:</strong></p>
+                            <p>Monday - Friday: 9:00 AM - 6:00 PM<br>
+                            Saturday: 9:00 AM - 1:00 PM<br>
+                            Sunday: Closed</p>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <h3>Call Us</h3>
+                            <p><strong>Main Line:</strong> +603-1234-5678</p>
+                            <p><strong>Emergency:</strong> +603-1234-9999</p>
+                            <p><strong>Admissions:</strong> +603-1234-5679</p>
+                            <p><strong>General Inquiries:</strong> +603-1234-5680</p>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <h3>Email Us</h3>
+                            <p><strong>General Information:</strong></p>
+                            <p>info@sereneretirement.com</p>
+                            <p><strong>Admissions:</strong></p>
+                            <p>admissions@sereneretirement.com</p>
+                            <p><strong>Careers:</strong></p>
+                            <p>careers@sereneretirement.com</p>
+                            <p><strong>Feedback:</strong></p>
+                            <p>feedback@sereneretirement.com</p>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-share-alt"></i>
+                            </div>
+                            <h3>Follow Us</h3>
+                            <div class="social-links-large">
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-facebook"></i>
+                                    Facebook
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-instagram"></i>
+                                    Instagram
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-whatsapp"></i>
+                                    WhatsApp
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-youtube"></i>
+                                    YouTube
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h3>Send Us a Message</h3>
+                        <form id="contactForm" onsubmit="handleContactSubmit(event)">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">First Name *</label>
+                                    <input type="text" id="firstName" name="firstName" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Last Name *</label>
+                                    <input type="text" id="lastName" name="lastName" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="admissions">Admissions Information</option>
+                                    <option value="tour">Schedule a Tour</option>
+                                    <option value="careers">Career Opportunities</option>
+                                    <option value="feedback">Feedback & Suggestions</option>
+                                    <option value="complaint">Complaints</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Please tell us how we can help you..."></textarea>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="newsletter">
+                                    I would like to receive newsletters and updates from Serene Retirement Village
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="map-section">
+                    <h3>Find Us</h3>
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.8088685494!2d101.689065314757!3d3.139003397718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc49c1c7b8d5b7%3A0x7f5b5c5c5c5c5c5c!2sSerene%20Retirement%20Village!5e0!3m2!1sen!2smy!4v1234567890"
+                            width="100%"
+                            height="400"
+                            style="border:0; border-radius: 15px;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <div class="map-directions">
+                        <button class="btn btn-primary" onclick="getDirections()">
+                            <i class="fas fa-directions"></i> Get Directions
+                        </button>
+                        <button class="btn btn-primary" onclick="copyAddress()">
+                            <i class="fas fa-copy"></i> Copy Address
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-phone"></i> +603-1234-5678</p>
+                    <p><i class="fas fa-envelope"></i> info@sereneretirement.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123, Jalan Serene, 50250 Kuala Lumpur</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#facilities">Facilities</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Serene Retirement Village. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Emergency Modal -->
+    <div id="emergencyModal" class="modal">
+        <div class="modal-content emergency-modal">
+            <div class="modal-header">
+                <h2><i class="fas fa-exclamation-triangle"></i> EMERGENCY ALERT</h2>
+            </div>
+            <div class="modal-body emergency-modal-body">
+                <div class="emergency-content-wrapper">
+                    <!-- Emergency Alert Section -->
+                    <div class="emergency-alert-section">
+                        <div class="emergency-icon-large">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <h3>EMERGENCY ASSISTANCE REQUESTED</h3>
+                        <p class="emergency-main-message">Our medical team and staff have been notified and will respond immediately.</p>
+                    </div>
+
+                    <!-- Emergency Information Section -->
+                    <div class="emergency-info-section">
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <i class="fas fa-ambulance"></i>
+                                <div>
+                                    <h4>Medical Team</h4>
+                                    <p>Notified and on the way</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-hospital"></i>
+                                <div>
+                                    <h4>Nearest Hospital</h4>
+                                    <p>KL General Hospital (5 mins)</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone-alt"></i>
+                                <div>
+                                    <h4>Emergency Contact</h4>
+                                    <p>+603-1234-9999</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>123, Jalan Serene, KL</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Countdown Timer Section -->
+                    <div class="emergency-timer-section">
+                        <div class="timer-circle">
+                            <span id="countdown">30</span>
+                        </div>
+                        <p class="timer-text">Emergency will be confirmed in <span id="timerText">30</span> seconds...</p>
+                        <p class="timer-subtext">Press "CANCEL EMERGENCY" to abort</p>
+                    </div>
+                    
+                    <!-- Quick Actions Section -->
+                    <div class="emergency-actions-section">
+                        <h4>Quick Actions</h4>
+                        <div class="actions-grid">
+                            <button class="btn btn-info action-btn" id="copyAddressBtn">
+                                <i class="fas fa-copy"></i>
+                                <span>Copy Address for Emergency Services</span>
+                            </button>
+                            <button class="btn btn-warning action-btn" onclick="callEmergencyServices()">
+                                <i class="fas fa-phone"></i>
+                                <span>Call Emergency Services (999)</span>
+                            </button>
+                            <button class="btn btn-notify action-btn" onclick="notifyFamily()">
+                                <i class="fas fa-users"></i>
+                                <span>Notify Family Members</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Important Instructions -->
+                    <div class="emergency-instructions">
+                        <h4><i class="fas fa-info-circle"></i> Important Instructions</h4>
+                        <ul>
+                            <li>Stay calm and remain in your current location</li>
+                            <li>Our medical team will arrive within 2-3 minutes</li>
+                            <li>Keep your phone accessible for incoming calls</li>
+                            <li>If you are with someone, stay with them until help arrives</li>
+                            <li>Have your medical information ready if possible</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger" id="confirmEmergency">Confirm Emergency</button>
+                <button class="btn btn-cancel-emergency" id="cancelEmergency">
+                    <i class="fas fa-times-circle"></i> CANCEL EMERGENCY
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2><i class="fas fa-check-circle"></i> Success</h2>
+            </div>
+            <div class="modal-body">
+                <p id="successMessage">Operation completed successfully!</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" onclick="closeModal('successModal')">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Weekly Schedule Modal -->
+    <div id="weeklyScheduleModal" class="modal">
+        <div class="modal-content schedule-modal">
+            <div class="modal-header">
+                <h2><i class="fas fa-calendar-alt"></i> Weekly Programme Schedule</h2>
+                <button class="close-btn" onclick="closeModal('weeklyScheduleModal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="schedule-container">
+                    <div class="schedule-day">
+                        <h4><i class="fas fa-calendar-day"></i> Monday</h4>
+                        <div class="schedule-item">
+                            <span class="time">8:00 AM - 9:00 AM</span>
+                            <span class="programme-name free">Morning Yoga</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">4:00 PM - 5:00 PM</span>
+                            <span class="programme-name free">Memory Enhancement Games</span>
+                        </div>
+                    </div>
+                    <div class="schedule-day">
+                        <h4><i class="fas fa-calendar-day"></i> Tuesday</h4>
+                        <div class="schedule-item">
+                            <span class="time">2:00 PM - 4:00 PM</span>
+                            <span class="programme-name free">Art Therapy Workshop</span>
+                        </div>
+                    </div>
+                    <div class="schedule-day">
+                        <h4><i class="fas fa-calendar-day"></i> Wednesday</h4>
+                        <div class="schedule-item">
+                            <span class="time">8:00 AM - 9:00 AM</span>
+                            <span class="programme-name free">Morning Yoga</span>
+                        </div>
+                    </div>
+                    <div class="schedule-day">
+                        <h4><i class="fas fa-calendar-day"></i> Thursday</h4>
+                        <div class="schedule-item">
+                            <span class="time">3:00 PM - 4:30 PM</span>
+                            <span class="programme-name free">Music & Memory</span>
+                        </div>
+                    </div>
+                    <div class="schedule-day">
+                        <h4><i class="fas fa-calendar-day"></i> Friday</h4>
+                        <div class="schedule-item">
+                            <span class="time">8:00 AM - 9:00 AM</span>
+                            <span class="programme-name free">Morning Yoga</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">4:00 PM - 5:00 PM</span>
+                            <span class="programme-name free">Memory Enhancement Games</span>
+                        </div>
+                    </div>
+                    <div class="schedule-day">
+                        <h4><i class="fas fa-calendar-day"></i> Saturday</h4>
+                        <div class="schedule-item">
+                            <span class="time">9:00 AM - 10:30 AM</span>
+                            <span class="programme-name free">Therapeutic Gardening</span>
+                        </div>
+                    </div>
+                    <div class="schedule-day">
+                        <h4><i class="fas fa-calendar-day"></i> Sunday</h4>
+                        <div class="schedule-item">
+                            <span class="time">Free Day</span>
+                            <span class="programme-name rest">Rest & Personal Time</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule-legend">
+                    <h5>Legend:</h5>
+                    <div class="legend-item">
+                        <span class="legend-color free"></span>
+                        <span>Free Programme</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-color paid"></span>
+                        <span>Paid Programme (Scheduled Separately)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" onclick="printSchedule()">Print Schedule</button>
+                <button class="btn btn-primary" onclick="closeModal('weeklyScheduleModal')">Close</button>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Guardian Room Monitoring Modal -->
+    <div id="guardianRoomModal" class="modal">
+        <div class="modal-content guardian-room-modal">
+            <div class="modal-header">
+                <h2><i class="fas fa-video"></i> Guardian Room Monitoring</h2>
+                <button class="close-btn" onclick="closeModal('guardianRoomModal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="room-monitoring-container">
+                    <!-- Room Info -->
+                    <div class="room-info-panel">
+                        <div class="room-details">
+                            <h3>Room <span id="monitoringRoomNumber">A-101</span></h3>
+                            <div class="status-indicators">
+                                <div class="status-item online">
+                                    <i class="fas fa-circle"></i>
+                                    <span>Camera Online</span>
+                                </div>
+                                <div class="status-item recording">
+                                    <i class="fas fa-record-vinyl"></i>
+                                    <span>Recording</span>
+                                </div>
+                                <div class="status-item audio">
+                                    <i class="fas fa-microphone"></i>
+                                    <span>Audio Enabled</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="guardian-info">
+                            <p><strong>Guardian:</strong> <span id="guardianNameDisplay">-</span></p>
+                            <p><strong>Relationship:</strong> <span id="relationshipDisplay">-</span></p>
+                            <p><strong>Session Started:</strong> <span id="sessionStartTime">-</span></p>
+                        </div>
+                    </div>
+
+                    <!-- Live Camera Feed -->
+                    <div class="camera-feed-container">
+                        <div class="live-camera">
+                            <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Room Camera Feed" id="roomCameraFeed">
+                            <div class="camera-overlay-live">
+                                <div class="live-indicator">
+                                    <span class="live-dot"></span>
+                                    LIVE
+                                </div>
+                                <div class="timestamp" id="liveTimestamp">00:00:00</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Control Panel -->
+                    <div class="control-panel">
+                        <h4>Camera Controls</h4>
+                        <div class="control-buttons">
+                            <button class="control-btn" onclick="toggleAudio()" id="audioToggle">
+                                <i class="fas fa-microphone"></i>
+                                <span>Mute</span>
+                            </button>
+                            <button class="control-btn" onclick="toggleRecording()" id="recordingToggle">
+                                <i class="fas fa-record-vinyl"></i>
+                                <span>Stop Recording</span>
+                            </button>
+                            <button class="control-btn" onclick="takeSnapshot()">
+                                <i class="fas fa-camera"></i>
+                                <span>Snapshot</span>
+                            </button>
+                            <button class="control-btn" onclick="toggleFullscreen()">
+                                <i class="fas fa-expand"></i>
+                                <span>Fullscreen</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Activity Log -->
+                    <div class="activity-log">
+                        <h4>Recent Activity</h4>
+                        <div class="log-entries" id="activityLogEntries">
+                            <div class="log-entry">
+                                <span class="log-time">14:30:25</span>
+                                <span class="log-text">Session started - Guardian connected</span>
+                            </div>
+                            <div class="log-entry">
+                                <span class="log-time">14:30:26</span>
+                                <span class="log-text">Camera feed activated</span>
+                            </div>
+                            <div class="log-entry">
+                                <span class="log-time">14:30:27</span>
+                                <span class="log-text">Recording started</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger" onclick="endMonitoringSession()">
+                    <i class="fas fa-stop"></i> End Session
+                </button>
+                <button class="btn btn-secondary" onclick="closeModal('guardianRoomModal')">
+                    <i class="fas fa-times"></i> Close
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Emergency Button -->
+    <div class="floating-emergency-container">
+        <button class="emergency-btn floating" id="emergencyBtn">
+            <i class="fas fa-exclamation-triangle"></i>
+            EMERGENCY
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
